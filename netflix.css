@@ -1,0 +1,336 @@
+body{
+    background-color: black;
+    color:white;
+    margin:0px;
+    padding:0px;
+}
+
+.upper-box{
+    background-image: url(./images/Gemini_1.png);
+    /* opacity: 0.9; */
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    margin:0 11% 0 11%;
+}
+#logo-img{
+    width: 150px;
+    margin-top:25px;
+}
+.navbar2{
+    display:flex;
+    margin-top:20px;
+}
+.navselect{
+    margin-right: 10px;
+    height: auto;
+    width:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:7px;
+    background-color: black;
+    color:white;
+}
+
+.front{
+    text-align:center;
+    margin: 10% 0 0 0;
+}
+.hclass{
+    padding-top:1%;
+}
+.hch1{
+    font-size:55px;
+    font-weight: 700;
+}
+.title{
+    font-weight: 900;
+    font-size:200px;
+}
+.mailinput{
+    padding:5px 100px 9px 1%;
+    color:white;
+    background:transparent;
+    
+}
+/* .nav2{
+    height: 50px;
+    width:100%;
+    background-image: url(./images/nav_2.png);
+    position: relative;
+} */
+
+.middle-box{
+    background-color: black;
+    padding-top:50px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:20px;
+    color:white;
+}
+
+.cards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px;
+    position: static;
+}
+.card{
+    width:100%;
+    margin-left:15px;
+    transition: 0.75s;
+}
+.card:hover{
+    transform:scale(1.2);
+    box-shadow: 1px 1px 15px white;
+    z-index: 5;
+}
+.img{
+    width:100%;
+}
+.option-box{
+    display: flex;
+    margin-top:30px;
+}
+
+.options{
+    margin-top:50px;
+}
+.option{
+    width:100%;
+    border-radius: 15px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    background-color:rgb(47, 42, 115);
+    padding-left:2%;
+    padding-right:0.5%;
+    padding-top:2%;
+    color:white;
+    transition: 0.5s;
+}
+.option:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 15px #4b4ddb;
+}
+.optopn-image{
+    width:20%;
+    position: relative;
+    top:13%;
+    left:75%;
+}
+.im-a{
+    position:relative;
+    top:3%;
+}
+.im-d{
+    position: relative;
+    top:0%;
+}
+.Frequently-asked {
+    padding-top:10px;
+    margin-top:50px;
+}
+.asked{
+    margin-top:30px;
+    padding-left:2%;
+    padding-right:2%;
+}
+.btn1{
+    color:white;
+    width: 100%;
+    height:80px;
+    text-align: left;
+    padding:10px 30px 10px 30px;
+    margin:5px 5px 5px 5px;
+    background-color: #242424;
+    border:none;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: #3B3B3B;
+}
+.readyto{
+    margin-top:5%;
+    margin-bottom:10%;
+    padding:10px;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: center;
+}
+.readytoinput{
+    padding-left: 2%;
+    margin-top:5px;
+    width:55%;
+    height: 50px;
+    background-color: #121212;
+    border:1px solid rgb(255,255,255,0.5);
+}
+.readytobtn{
+    height:50px;
+    margin-left:1%;
+}
+
+@media(max-width:959px){
+    .option-box{
+        flex-wrap: wrap;
+    }
+    .option{
+        margin-top: 20px;
+        height: 170px;
+        transform:translateY(-10px);
+    }
+    .optopn-image{
+        width:75px;
+        position: relative;
+        top:-30px;
+        left:85%;
+    }
+    .upper-box{
+        height:90vh;
+    }
+}
+
+@media(max-width:779px){
+    .optopn-image{
+        display:none;
+    }
+    #logo-img{
+        width:80px;
+    }   
+    .navselect{
+        width:55%;
+        height: 60%;
+        margin-top:6px;
+        padding-bottom: 2px;
+    }
+    #navbuttonbr{
+        height: 60%;
+        padding-top: 0px;
+        padding-bottom: 1px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    .hch1{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top:30%;
+    font-size:30px;
+    font-weight:400;
+    }
+    .hch4{
+        font-size: 17px;
+    }
+    .hcp{
+        font-size:15px;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mailinput{
+    padding:5px 80px 9px 2%;
+    margin-left: 50px;
+    margin-right:60px;
+    margin-bottom: 15px;
+    }
+    .upper-box{
+        height:75vh;
+    }
+}
+@media(max-width:1180px) {
+    #cf{
+        display:none;
+    }
+}
+@media(max-width:1029px) {
+    #ce{
+        display:none;
+    }
+    .card{
+
+    }
+}
+@media(max-width:939px) {
+    #cd{
+        display:none;
+    }
+}
+@media(max-width:779px) {
+    #cc{
+        display:none;
+    }
+}
+
+
+
+/*------------------------NAV INFO-----------------------------------NAV INFO ------------------------NAV INFO----------------------------*/
+/*------------------------NAV INFO-----------------------------------NAV INFO ------------------------NAV INFO----------------------------*/
+/*------------------------NAV INFO-----------------------------------NAV INFO ------------------------NAV INFO----------------------------*/
+
+
+.infonav{
+    background-color: white;
+    background-color:transparent;
+}
+.infonav img{
+    width:150px;
+    padding-top: 15px;
+    padding-left: 10%;
+}
+.infomain{
+    width:80vh;
+    height:80vh;
+    align-items:center;
+    margin:auto;
+    padding-top:1%;
+    padding-left:5%;
+    font-family:sans-serif;
+}
+.infoHeading{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+.infoHeading2{
+    opacity: 0.7;
+    font-size:20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.infomain input {
+    margin-top:3%;
+    height: 5vh;
+    width:60%;
+    padding-left:4%;
+    padding-top:2%;
+    border:1px solid white;
+    border-radius: 5px;
+    background:transparent;
+    font-size:20px;
+}
+.infomain button{
+    color:white;
+    width:82%;
+    height: 8vh;
+    margin-top:15px;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(250, 43, 43);
+    font-size:20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.infop{
+    opacity: 0.5;
+    font-size:15px;
+}
+.infop1{
+    display:flex;
+    font-size:20px;
+}
