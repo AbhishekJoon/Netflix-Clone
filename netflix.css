@@ -233,9 +233,9 @@ body{
     }
     .mailinput{
     padding:5px 80px 9px 2%;
-    margin-left: 50px;
-    margin-right:60px;
-    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 5%;
     }
     .upper-box{
         height:75vh;
@@ -334,3 +334,4 @@ body{
     display:flex;
     font-size:20px;
 }
+
